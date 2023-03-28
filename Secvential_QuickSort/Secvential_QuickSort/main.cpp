@@ -1,12 +1,11 @@
 #include "Utils.h"
 #include "Sort.h"
-
+long vector[1000000];
 int main()
 {
-	long vector[1001];
 	int dim ;
 	
-	//test_generator6();
+	test_generator();
 
 	load_test(vector, &dim);
 	cout << dim << endl;
